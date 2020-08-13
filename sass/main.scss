@@ -1,5 +1,7 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 @import "base/base.scss";
+@import "base/typography";
 @import "pages/home";
-
+@import "components/skills-box";
+@import "layout/grid";
