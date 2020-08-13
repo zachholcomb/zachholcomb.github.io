@@ -6,288 +6,330 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <section class="main">
-    <h1>Zach Holcomb</h1>
-    <h3>Full Stack Developer</h3>
-  </section>
 
-  <section class="section-about-me">
-    <h3>About Me</h3>
-    <p>
-      Through my background as a jazz musician and small business owner, I developed strong problem solving and collaboration
-      skills, as well as a passion for continuous education. I am focused on applying these experiences to not only the
-      software I build but also the teams I work on.I profoundly believe that if you put your mind to something while enjoying
-      the learning process, you can achieve great things. Eight years ago, I started a business with some friends because I
-      had become interested in roasting coffee. We were able to take that business from modest beginnings in a garage to a
-      warehouse where we were supplying many businesses in Denver. We did this because we embraced the process--celebrating
-      the successes and learning from the failures. In a separate path, I was able to go from being a mediocre self-taught
-      pianist to receiving a Masters degree in jazz piano performance from the University of Denver. Again, the common
-      denominator was trusting the process and staying focused. When I think about my experience in software engineering so
-      far, I see that same growth process and it makes me excited for the future.
-    </p>
-  </section>
-
-  <section class="skills">
-    <h2>Technologies I Know</h2>
-
-    <div class="row">
-      <div class="col-1-of-4">
-        <div class="skills-box">
-          <h3 class="skills-box-heading">Frontend</h3>
-          <div class="skills-box__text">
-            <ul>
-              <li>JavaScript</li>
-              <li>JQuery</li>
-              <li>Fetch</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>AJAX</li>
-            </ul>
-          </div>
-        </div>
-      </div>  
-      <div class="col-1-of-4">
-        <div class="skills-box">
-          <h3 class="skills-box-heading">Backend</h3>
-          <div class="skills-box__text">
-            <ul>
-              <li>Ruby</li>
-              <li>Python</li>
-              <li>Sinatra</li>
-              <li>Rails</li>
-              <li>FastAPI</li>
-              <li>Express.js</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-1-of-4">
-        <div class="skills-box">
-          <h3 class="skills-box-heading">Databases</h3>
-          <div class="skills-box__text">
-            <ul>
-              <li>SQL</li>
-              <li>Postgresql</li>
-              <li>ActiveRecord</li>
-              <li>Sequelize.js</li>
-              <li>SQLAlchemy</li>
-              <li>GraphQL</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-1-of-4">
-        <div class="skills-box">
-          <h3 class="skills-box-heading">DevOps</h3>
-          <div class="skills-box__text">
-            <ul>
-              <li>TDD</li>
-              <li>Git</li>
-              <li>REST APIs</li>
-              <li>Heroku</li>
-              <li>Travis CI</li>
-              <li>CI/CD</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+  <header class="header">
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        <span class="heading-primary--main">Zach Holcomb</span>
+        <span class="heading-primary--sub">Software Developer</span>
+      </h1>
     </div>
-  </section>
+  </header>
 
-  <section class="projects">
-    <h2>What I'm Working On</h2>
-
-    <div class="row">
-      <div class="col-1-of-3">
-        <div class="card">
-          <div class="card__side card__side--front">
-            <div class="card__image card__image--1">
-              &nbsp;
-            </div>
-            <h4 class="card__heading">
-              <span class="card__heading-span card__heading-span--1">Find My Market</span>
-            </h4>
-            <div class="card__details">
-                <ul>
-                  <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and filtering by products/date.</li>
-                  <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
-                </ul>
-            </div>
-          </div>
-          <div class="card__side card__side--back card__side--back-1">
-              <div class="card__cta">
-                <div class="card__name">
-                  <p class="card__name--title heading-tertiary u-margin-bottom-large">Find My Market</p>
-                  <p class="heading-tertiary">
-                    Click to View Repo
-                  </p>
-                  <!-- links go here -->
-              </div>
-            </div>
+  <main>
+    <section class="section-about-me">
+      <div class="u-center-text u-margin-bottom-large">
+        <h2 class="heading-secondary">
+          About Me
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <p class="paragraph">
+            I am a software developer by day and a jazz pianist by night. My first love is Ruby, but I love learning new languages
+            and frameworks! I'm looking for a challenging, fast paced environment that values employee growth and team
+            collaboration.  Send me a message if you know of any positions that I'd be a good fit for, or if you want to chat about coding, jazz
+            piano, sourdough bread, or pizza!
+          </p>
+        </div>
+        <div class="col-1-of-2">
+          <div class="composition">
+            <img src="img/zach.jpg" alt="Zach Holcomb" class="composition__photo personal_photo">
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="col-1-of-3">
-        <div class="card">
-          <div class="card__side card__side--front">
-            <div class="card__image card__image--1">
-              &nbsp;
-            </div>
-            <h4 class="card__heading">
-              <span class="card__heading-span card__heading-span--1">Find My Market</span>
-            </h4>
-            <div class="card__details">
+    <section class="skills">
+      <div class="u-center-text u-margin-bottom-large">
+        <h2 class="heading-secondary skills-header">
+          Technologies I Know
+        </h2>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">
+          <div class="skills-box">
+            <h3 class="skills-box-heading">Frontend</h3>
+            <div class="skills-box__text">
               <ul>
-                <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and
-                  filtering by products/date.</li>
-                <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
+                <li>JavaScript</li>
+                <li>JQuery</li>
+                <li>Fetch</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>AJAX</li>
               </ul>
             </div>
           </div>
-          <div class="card__side card__side--back card__side--back-1">
-            <div class="card__cta">
-              <div class="card__name">
-                <p class="card__name--title heading-tertiary u-margin-bottom-large">Find My Market</p>
-                <p class="heading-tertiary">
-                  Click to View Repo
-                </p>
-                <!-- links go here -->
-              </div>
+        </div>  
+        <div class="col-1-of-4">
+          <div class="skills-box">
+            <h3 class="skills-box-heading">Backend</h3>
+            <div class="skills-box__text">
+              <ul>
+                <li>Ruby</li>
+                <li>Python</li>
+                <li>Sinatra</li>
+                <li>Rails</li>
+                <li>FastAPI</li>
+                <li>Express.js</li>
+              </ul>
             </div>
           </div>
         </div>
+        <div class="col-1-of-4">
+          <div class="skills-box">
+            <h3 class="skills-box-heading">Databases</h3>
+            <div class="skills-box__text">
+              <ul>
+                <li>SQL</li>
+                <li>Postgresql</li>
+                <li>ActiveRecord</li>
+                <li>Sequelize.js</li>
+                <li>SQLAlchemy</li>
+                <li>GraphQL</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="skills-box">
+            <h3 class="skills-box-heading">DevOps</h3>
+            <div class="skills-box__text">
+              <ul>
+                <li>TDD</li>
+                <li>Git</li>
+                <li>REST APIs</li>
+                <li>Heroku</li>
+                <li>Travis CI</li>
+                <li>CI/CD</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="u-center-text u-margin-bottom-large">
+          <h2 class="heading-secondary">
+            What I'm Working On
+          </h2>
       </div>
 
-      <div class="col-1-of-3">
-        <div class="card">
-          <div class="card__side card__side--front">
-            <div class="card__image card__image--1">
-              &nbsp;
+      <div class="row">
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__image card__image--1">
+                &nbsp;
+              </div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--1">Find My Market</span>
+              </h4>
+              <div class="card__details">
+                  <ul>
+                    <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and filtering by products/date.</li>
+                    <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
+                  </ul>
+              </div>
             </div>
-            <h4 class="card__heading">
-              <span class="card__heading-span card__heading-span--1">Find My Market</span>
-            </h4>
-            <div class="card__details">
-              <ul>
-                <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and
-                  filtering by products/date.</li>
-                <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
-              </ul>
-            </div>
-          </div>
-          <div class="card__side card__side--back card__side--back-1">
-            <div class="card__cta">
-              <div class="card__name">
-                <p class="card__name--title heading-tertiary u-margin-bottom-large">Find My Market</p>
-                <p class="heading-tertiary">
-                  Click to View Repo
-                </p>
-                <!-- links go here -->
+            <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__name">
+                    <p class="card__name--title heading-tertiary u-margin-bottom-large">Find My Market</p>
+                    <p class="heading-tertiary">
+                      Click to View Repo
+                    </p>
+                    <!-- links go here -->
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-1-of-3">
-        <div class="card">
-          <div class="card__side card__side--front">
-            <div class="card__image card__image--1">
-              &nbsp;
-            </div>
-            <h4 class="card__heading">
-              <span class="card__heading-span card__heading-span--1">Find My Market</span>
-            </h4>
-            <div class="card__details">
-              <ul>
-                <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and
-                  filtering by products/date.</li>
-                <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
-              </ul>
-            </div>
-          </div>
-          <div class="card__side card__side--back card__side--back-1">
-            <div class="card__cta">
-              <div class="card__name">
-                <p class="card__name--title heading-tertiary u-margin-bottom-large">Find My Market</p>
-                <p class="heading-tertiary">
-                  Click to View Repo
-                </p>
-                <!-- links go here -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-1-of-3">
-        <div class="card">
-          <div class="card__side card__side--front">
-            <div class="card__image card__image--1">
-              &nbsp;
-            </div>
-            <h4 class="card__heading">
-              <span class="card__heading-span card__heading-span--1">Find My Market</span>
-            </h4>
-            <div class="card__details">
-              <ul>
-                <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and
-                  filtering by products/date.</li>
-                <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
-              </ul>
-            </div>
-          </div>
-          <div class="card__side card__side--back card__side--back-1">
-            <div class="card__cta">
-              <div class="card__name">
-                <p class="card__name--title heading-tertiary u-margin-bottom-large">Find My Market</p>
-                <p class="heading-tertiary">
-                  Click to View Repo
-                </p>
-                <!-- links go here -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-1-of-3">
-        <div class="card">
-          <div class="card__side card__side--front">
-            <div class="card__image card__image--1">
-              &nbsp;
-            </div>
-            <h4 class="card__heading">
-              <span class="card__heading-span card__heading-span--1">Find My Market</span>
-            </h4>
-            <div class="card__details">
-              <ul>
-                <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and
-                  filtering by products/date.</li>
-                <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
-              </ul>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__image card__image--1">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1">Find My Market</span>
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and
+                      filtering by products/date.</li>
+                    <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__name">
+                    <p class="card__name--title heading-tertiary u-margin-bottom-large">Find My Market</p>
+                    <p class="heading-tertiary">
+                      Click to View Repo
+                    </p>
+                    <!-- links go here -->
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="card__side card__side--back card__side--back-1">
-            <div class="card__cta">
-              <div class="card__name">
-                <p class="card__name--title heading-tertiary u-margin-bottom-large">Find My Market</p>
-                <p class="heading-tertiary">
-                  Click to View Repo
-                </p>
-                <!-- links go here -->
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__image card__image--1">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1">Find My Market</span>
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and
+                      filtering by products/date.</li>
+                    <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__name">
+                    <p class="card__name--title heading-tertiary u-margin-bottom-large">Find My Market</p>
+                    <p class="heading-tertiary">
+                      Click to View Repo
+                    </p>
+                    <!-- links go here -->
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__image card__image--1">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1">Find My Market</span>
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and
+                      filtering by products/date.</li>
+                    <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__name">
+                    <p class="card__name--title heading-tertiary u-margin-bottom-large">Find My Market</p>
+                    <p class="heading-tertiary">
+                      Click to View Repo
+                    </p>
+                    <!-- links go here -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__image card__image--1">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1">Find My Market</span>
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and
+                      filtering by products/date.</li>
+                    <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__name">
+                    <p class="card__name--title heading-tertiary u-margin-bottom-large">Find My Market</p>
+                    <p class="heading-tertiary">
+                      Click to View Repo
+                    </p>
+                    <!-- links go here -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-  <section class="contact">
-    <h2>Contact</h2>
-  </section>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__image card__image--1">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1">Find My Market</span>
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and
+                      filtering by products/date.</li>
+                    <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__name">
+                    <p class="card__name--title heading-tertiary u-margin-bottom-large">Find My Market</p>
+                    <p class="heading-tertiary">
+                      Click to View Repo
+                    </p>
+                    <!-- links go here -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="u-margin-bottom-medium">
+          <h2 class="heading-secondary">Contact</h2>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="row">
+        <div class="footer__navigation">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="https://www.linkedin.com/in/zach-holcomb-4569741a5/" class="footer__link" target="_blank">LinkedIn</a>
+            </li>
+            <li class="footer__item">
+              <a href="https://github.com/zachholcomb" class="footer__link" target="_blank">GitHub</a>
+            </li>
+            <li class="footer__item">
+              <a href="./img/zach-holcomb.pdf" class="footer__link">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
 
