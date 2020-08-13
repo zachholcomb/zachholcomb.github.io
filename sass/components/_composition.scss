@@ -1,0 +1,19 @@
+.composition {
+  position: relative;
+
+  &__photo {
+    width: 85%;
+    box-shadow: 0 1.5rem 4rem rbga($color-black, 0.4);
+    border-radius: 0.2rem;
+    position: absolute;
+    z-index: 10;
+    outline-offset: 2rem;
+
+    @include respond(tab-port) {
+      float: left;
+      position: relative;
+      width: 33.3333333%;
+      box-shadow: 0 1.5rem 3rem rgba($color-black, 0.2);
+    }
+  }
+}
