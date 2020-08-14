@@ -52,9 +52,28 @@
     border-top-left-radius: 0.3rem;
     border-top-right-radius: 0.3rem;
 
+    &--1 {
+      background-image: url(../../img/market.png);
+    }
+    
+    &--2 {
+      background-image: url(../img/community.png)
+    }
+
+    &--3 {
+      background-image: url(../img/crate.png)
+    }
+
+    &--4 {
+      background-image: url(../img/weather.png)
+    }
+
+    &--5 {
+      background-image: url(../img/brownfield.png)
+    }
   }
 
-  &__heading {
+  &__heading {  
     font-size: 2.8rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -77,6 +96,24 @@
         rgba($color-secondary-light, 0.85),
         rgba($color-secondary-dark, 0.85)
       );
+    }
+
+    &--2 {
+      background-image:  linear-gradient(
+        to right bottom,
+        rgba($color-secondary-light, 0.85),
+        rgba($color-secondary-dark, 0.85)
+      );
+      font-size: 2.3rem;
+    }
+
+    &--3 {
+      background-image:  linear-gradient(
+        to right bottom,
+        rgba($color-secondary-light, 0.85),
+        rgba($color-secondary-dark, 0.85)
+      );
+      font-size: 2rem;
     }
   }
 
