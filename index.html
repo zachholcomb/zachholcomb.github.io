@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <Title> Zach Holcomb</Title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 </head>
 <body>
 
@@ -50,6 +53,7 @@
       <div class="row">
         <div class="col-1-of-4">
           <div class="skills-box">
+            <i class="skills-box__icon material-icons">code</i>
             <h3 class="skills-box-heading">Frontend</h3>
             <div class="skills-box__text">
               <ul>
@@ -65,6 +69,7 @@
         </div>  
         <div class="col-1-of-4">
           <div class="skills-box">
+            <i class="skills-box__icon material-icons">cloud</i>
             <h3 class="skills-box-heading">Backend</h3>
             <div class="skills-box__text">
               <ul>
@@ -80,11 +85,12 @@
         </div>
         <div class="col-1-of-4">
           <div class="skills-box">
+            <i class="skills-box__icon material-icons">account_tree</i>
             <h3 class="skills-box-heading">Databases</h3>
             <div class="skills-box__text">
               <ul>
                 <li>SQL</li>
-                <li>Postgresql</li>
+                <li>PostgreSQL</li>
                 <li>ActiveRecord</li>
                 <li>Sequelize.js</li>
                 <li>SQLAlchemy</li>
@@ -95,7 +101,8 @@
         </div>
         <div class="col-1-of-4">
           <div class="skills-box">
-            <h3 class="skills-box-heading">DevOps</h3>
+            <i class="skills-box__icon material-icons">laptop</i>
+            <h3 class="skills-box-heading">Other</h3>
             <div class="skills-box__text">
               <ul>
                 <li>TDD</li>
@@ -103,7 +110,7 @@
                 <li>REST APIs</li>
                 <li>Heroku</li>
                 <li>Travis CI</li>
-                <li>CI/CD</li>
+                <li>OOP</li>
               </ul>
             </div>
           </div>
@@ -131,7 +138,7 @@
               <div class="card__details">
                   <ul>
                     <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and filtering by products/date.</li>
-                    <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
+                    <li>Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, Pytest, React Native, Jest, Travis CI, Heroku</li>
                   </ul>
               </div>
             </div>
@@ -142,7 +149,9 @@
                     <p class="heading-tertiary">
                       Click to View Repo
                     </p>
-                    <!-- links go here -->
+                    <a href="https://github.com/tylerpporter/find_my_market_api" target="_blank" class="btn btn--white">Backend Repo</a>
+                    <a href="https://github.com/tylerpporter/find_my_market_fe" target="_blank" class="btn btn--white">Fronten Repo</a>
+                    <a href="https://find-my-market-api.herokuapp.com/docs" target="_blank" class="btn  btn--white">Live API</a>
                 </div>
               </div>
             </div>
@@ -152,34 +161,36 @@
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front">
-                <div class="card__image card__image--1">
+                <div class="card__image card__image--2">
                   &nbsp;
                 </div>
                 <h4 class="card__heading">
-                  <span class="card__heading-span card__heading-span--1">Find My Market</span>
+                  <span class="card__heading-span card__heading-span--2">Community Compose</span>
                 </h4>
                 <div class="card__details">
                   <ul>
-                    <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and
-                      filtering by products/date.</li>
-                    <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
+                    <li>
+                      Web app that uses embedded music notation editor from flat.io. Users can
+                      collaborate with musicians/composers in their area via requesting to collaborate or messaging a user.
+                    </li>
+                    <li>Ruby on Rails, RSpec, flat.io API, Fetch, JQuery, PostgreSQL, Sinatra, Travis CI, Heroku</li>
                   </ul>
                 </div>
               </div>
               <div class="card__side card__side--back card__side--back-1">
                 <div class="card__cta">
                   <div class="card__name">
-                    <p class="card__name--title heading-tertiary u-margin-bottom-large">Find My Market</p>
+                    <p class="card__name--title heading-tertiary u-margin-bottom-large">Community Compose</p>
                     <p class="heading-tertiary">
                       Click to View Repo
                     </p>
-                    <!-- links go here -->
+                    <a href="https://github.com/zachholcomb/community_compose" target="_blank" class="btn btn--white">Repo</a>
+                    <a href="https://community-compose.herokuapp.com/" target="_blank" class="btn btn--white">Live App</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front">
@@ -187,24 +198,23 @@
                   &nbsp;
                 </div>
                 <h4 class="card__heading">
-                  <span class="card__heading-span card__heading-span--1">Find My Market</span>
+                  <span class="card__heading-span card__heading-span--3">US Farmers Markets API</span>
                 </h4>
                 <div class="card__details">
                   <ul>
-                    <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and
-                      filtering by products/date.</li>
-                    <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
+                    <li>GraphQL API that has all farmers markets from the US. Supports queries by product, location, and date.</li>
+                    <li>Ruby on Rails, GraphQL, PostgreSQL, RSpec</li>
                   </ul>
                 </div>
               </div>
               <div class="card__side card__side--back card__side--back-1">
                 <div class="card__cta">
                   <div class="card__name">
-                    <p class="card__name--title heading-tertiary u-margin-bottom-large">Find My Market</p>
+                    <p class="card__name--title heading-tertiary u-margin-bottom-large">US Farmers Markets API</p>
                     <p class="heading-tertiary">
                       Click to View Repo
                     </p>
-                    <!-- links go here -->
+                    <a href="https://github.com/tylerpporter/us_farmers_market_api" target="_blank" class="btn btn--white">Repo</a>
                   </div>
                 </div>
               </div>
@@ -215,28 +225,27 @@
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front">
-                <div class="card__image card__image--1">
+                <div class="card__image card__image--3">
                   &nbsp;
                 </div>
                 <h4 class="card__heading">
-                  <span class="card__heading-span card__heading-span--1">Find My Market</span>
+                  <span class="card__heading-span card__heading-span--1">Crate</span>
                 </h4>
                 <div class="card__details">
                   <ul>
-                    <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and
-                      filtering by products/date.</li>
-                    <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
+                    <li>Brownfield app for clothes subscription. Our changes added user editing functionality and funcitonality to see the next shipments.</li>
+                    <li>Node.js, Expres.js, Jest, Sequelize, GraphQL</li>
                   </ul>
                 </div>
               </div>
               <div class="card__side card__side--back card__side--back-1">
                 <div class="card__cta">
                   <div class="card__name">
-                    <p class="card__name--title heading-tertiary u-margin-bottom-large">Find My Market</p>
+                    <p class="card__name--title heading-tertiary u-margin-bottom-large">Crate</p>
                     <p class="heading-tertiary">
                       Click to View Repo
                     </p>
-                    <!-- links go here -->
+                    <a href="https://github.com/rachael-t/Crate" target="_blank" class="btn btn--white">Repo</a>
                   </div>
                 </div>
               </div>
@@ -245,28 +254,28 @@
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front">
-                <div class="card__image card__image--1">
+                <div class="card__image card__image--5">
                   &nbsp;
                 </div>
                 <h4 class="card__heading">
-                  <span class="card__heading-span card__heading-span--1">Find My Market</span>
+                  <span class="card__heading-span card__heading-span--3">Brownfield of Dreams</span>
                 </h4>
                 <div class="card__details">
                   <ul>
-                    <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and
-                      filtering by products/date.</li>
-                    <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
+                    <li>Brownfield app for making video tutorial playlists. Our changes added OAuth, ability to import full YouTube playlists, and email notifications.</li>
+                    <li>Ruby on Rails, RSpec, GitHub OAtuh2, YouTube API, SendGrid</li>
                   </ul>
                 </div>
               </div>
               <div class="card__side card__side--back card__side--back-1">
                 <div class="card__cta">
                   <div class="card__name">
-                    <p class="card__name--title heading-tertiary u-margin-bottom-large">Find My Market</p>
+                    <p class="card__name--title heading-tertiary u-margin-bottom-large">Brownfield of Dreams</p>
                     <p class="heading-tertiary">
                       Click to View Repo
                     </p>
-                    <!-- links go here -->
+                    <a href="https://github.com/zachholcomb/brownfield-of-dreams" target="_blank" class="btn btn--white">Repo</a>
+                    <a href="https://dreams-brownfield.herokuapp.com/" target="_blank" class="btn btn--white">Live App</a>
                   </div>
                 </div>
               </div>
@@ -276,29 +285,29 @@
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front">
-                <div class="card__image card__image--1">
+                <div class="card__image card__image--4">
                   &nbsp;
                 </div>
                 <h4 class="card__heading">
-                  <span class="card__heading-span card__heading-span--1">Find My Market</span>
+                  <span class="card__heading-span card__heading-span--2">Sweater Weather</span>
                 </h4>
                 <div class="card__details">
                   <ul>
-                    <li>Mobile first app that allows users to find farmers markets in their area. Supports favoriting and
-                      filtering by products/date.</li>
-                    <li>Tech Stack: Ruby on Rails, Python3, FastAPI, Pydantic, SQLAlchemy, Postgres, GraphQL </li>
+                    <li>
+                      Road Trip API that provides weather forecast at the estimated time of arrival for a given destination.
+                    </li>
+                    <li>Ruby on Rails, RSpec, FastJSON, Google Maps API, OpenWeather API</li>
                   </ul>
                 </div>
               </div>
               <div class="card__side card__side--back card__side--back-1">
                 <div class="card__cta">
                   <div class="card__name">
-                    <p class="card__name--title heading-tertiary u-margin-bottom-large">Find My Market</p>
+                    <p class="card__name--title heading-tertiary u-margin-bottom-large">Sweater Weather</p>
                     <p class="heading-tertiary">
                       Click to View Repo
                     </p>
-                    <!-- links go here -->
-                  </div>
+                    <a href="https://github.com/zachholcomb/sweater_weather_final" target="_blank" class="btn btn--white">Repo</a>
                 </div>
               </div>
             </div>
@@ -306,9 +315,36 @@
         </div>
       </section>
 
-      <section class="contact">
-        <div class="u-margin-bottom-medium">
-          <h2 class="heading-secondary">Contact</h2>
+      <div class="u-center-text u-margin-bottom-large">
+        <a href="https://github.com/zachholcomb" target="_blank" class="btn btn--secondary">Check Out My Github</a>
+      </div>
+
+      <section class="section-contact">
+        <div class= "row">
+          <div class="contact">
+            <div class="contact__form">
+              <form action="#" class="form" id="contact-form" method="post">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary">Contact</h2>
+                </div>
+                <div class="form__group">
+                  <input type="text" class="form__input" placeholder="Full Name" name="name" id="name" required>
+                  <label for="name" class="form__label">Full Name</label>
+                </div>
+                <div class="form__group u-margin-bottom-small">
+                  <input type="email" class="form__input" placeholder="Email Address" name="email" id="email" required>
+                  <label for="email" class="form__label">Email Address</label>
+                </div>
+                <div class="form__group u-margin-bottom-small">
+                  <textarea placeholder="Message" name="message" id="message" cols="30" rows="10" class="form__input" required></textarea>
+                  <label for="message" class="form__label">Message</label>
+                </div>
+                <div class="form__group">
+                  <button class="btn btn--secondary" id="submit" type= "submit" value="Send">Contact Me &rarr;</button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </section>
     </main>
