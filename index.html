@@ -21,9 +21,9 @@
         event.preventDefault();
         emailjs.sendForm('gmail', 'template_FCwYklu8', this)
         .then(function(response) {
-          console.alert('Thanks for reaching out, I will get back to you ASAP!');
+          alert('Thanks for contacting me! I will get back to you ASAP!');
         }, function(error) {
-          console.alert('Oops...' + JSON.stringify(error));
+          alert('Oops...' + JSON.stringify(error));
         });
       });
     }

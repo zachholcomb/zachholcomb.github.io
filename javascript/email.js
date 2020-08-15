@@ -15,7 +15,6 @@ $("#contact-form").on("submit", function(event) {
   }).done(function() {
     alert('Thanks for contacting me! I will get back to you ASAP!');
   }).fail(function(error) {
-    console.log(error);
     alert('Oops...' + JSON.stringify(error));
   });
 });
